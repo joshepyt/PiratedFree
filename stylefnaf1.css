@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(to left,rgb(35, 29, 128.3),rgb(55, 0, 92.4));
+    
+}
+
+.volverfnaf1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: -5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.volverfnaf1:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;    
+}
