@@ -1,0 +1,850 @@
+body{
+    background: linear-gradient(to left,rgb(102, 21, 21),rgb(0, 0, 0));
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;    
+}
+
+.contenedor{
+    display: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.img{
+    width: 800px;
+    height: 350px;
+    border-radius: 50px;
+
+}
+
+.textodeinicio{
+	color: #fff;
+}
+
+.capa{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+    top: 0;left: 0;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;left: 0;
+    background-color: #141016;
+    border-bottom: 7px solid  #9c0101;  
+}
+
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.container .btn-menu, .logo{
+    float: left;
+    line-height:75px;
+}
+.container .btn-menu label{
+    display: flex;
+    position: fixed;
+    left: 14px;
+    color: #fff4f4;
+    font-size: 35px;
+    cursor: pointer;
+
+}   
+.logo h1{
+    display: flex;
+    position: fixed;
+    left: 100px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 0px;
+}
+.logo img{
+    display: flex;
+    position: fixed;
+    left: 50px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+
+
+}
+.container .menu{
+    float: right;
+    line-height: 100px;
+}
+.container .menu a{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease;  
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.container .menu a:hover{
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 5px;
+}
+
+#btn-menu{
+    display: none;
+}
+.container-menu{
+    position: absolute;
+    width: 100%;
+    height: 200vh;
+    top: 0;left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.cont-menu{
+    width: 100%;
+    position: fixed;
+    background: #1c1c1c;
+	min-height: 10px;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+
+
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+.cont-menu nav{
+    transform: translateY(15%);
+}
+.cont-menu nav a{
+    display: block;
+    position: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+.cont-menu nav a:hover{
+    color: #c00303;
+    border-left: 5px solid #b60110;
+    background: #1f1f1f;
+    text-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+
+}
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+.menudispositivos{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 25px;
+}
+
+.movil{
+    left: 20px;
+    top: 80px;
+}
+
+ .textomovil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173, 0, 0);
+    padding: 5px 80px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textomovil:hover{
+    background: #b60110;
+    box-shadow: 0 0 10px #6b0000, 0 0 40px #e20000, 0 0 80px #c00000;
+    transition-delay: 0.0.1s;
+ }
+
+.pc{
+    left: 300px;
+    top: 80px;
+ }
+
+.textopc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173, 0, 0);
+    padding: 5px 80px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textopc:hover{
+    background: #b60110;
+    box-shadow: 0 0 10px #6b0000, 0 0 40px #e20000, 0 0 80px #c00000;
+    transition-delay: 0.0.1s;
+ }
+
+ .redes{
+	display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+    gap: 50px;
+    margin-top: -10px;
+}
+
+.tiktok{
+    background-size: 100pv;
+    border-radius: 40%;
+}
+
+.discord{
+    background-size: 100pv;
+    border-radius: 40%;
+}
+
+.descargasjuego{
+	display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+    gap: 25px;
+	margin-top: 100px;
+}
+
+
+.descargarminecraft{
+    border-bottom: 7px solid #a945c7;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.minecraftimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textominecraft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textominecraft:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;
+ }
+
+ .textominecraftdos{
+    display: block;
+    position: relative;
+    left: center;
+    top: 20px;
+    margin-top: -10px;
+    width: 170;
+    height: 100;
+ }
+
+.descargarlimbo{
+    border-bottom: 7px solid #a945c7;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.limboimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textolimbo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.textolimbo:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;
+}
+
+.textolimbodos{
+    display: block;
+    position: relative;
+    left: center;
+    top: 20px;
+    margin-top: -10px;
+    width: 170;
+    height: 100;    
+}
+
+.descargarhollow{
+    border-bottom: 7px solid #a945c7;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.hollowimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textohollow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textohollow:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;
+ }
+
+.textohollowdos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50;
+}
+
+
+ .descargarfnafuno{
+    border-bottom: 7px solid #a945c7;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.fnafunoimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textofnafuno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textofnafuno:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;
+ }
+
+ .textofnafunodos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50; 
+ }
+
+ .descargarfnafdos{
+    border-bottom: 7px solid #a945c7;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.fnafdosimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textofnafdos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textofnafdos:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;
+ }
+
+ .textofnafdosdos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50; 
+ }
+
+ .descargarfnaftres{
+    border-bottom: 7px solid #a945c7;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.fnaftresimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textofnaftres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textofnaftres:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;
+ }
+
+ .textofnaftresdos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50;  
+ }
+
+
+ .descargarfnafcuatro{
+    border-bottom: 7px solid #a945c7;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.fnafcuatroimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textofnafcuatro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textofnafcuatro:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;
+ }
+
+ .textofnafcuatrodos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50;  
+ }
+
+ .descargargris{
+    border-bottom: 7px solid #a945c7;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.grisimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textogris{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textogris:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;
+ }
+
+ .textogrisdos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50; 
+ } 
+
+.descargarfnafsisterlocation{
+    border-bottom: 7px solid #a945c7;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.fnafsisterlocationimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textofnafsisterlocation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textofnafsisterlocation:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;
+ }
+
+ .textofnafsisterlocationdos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50;  
+ }
+
+ .descargarpizzeriasimulator{
+    border-bottom: 7px solid #a945c7;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.pizzeriasimulatorimagen{
+    width: 150px;
+    height: 150px;  
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textopizzeriasimulator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;  
+
+}
+
+.textopizzeriasimulator:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;
+ }
+
+ .textopizzeriasimulatordos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 50px;
+    width: 170;
+    height: 40; 
+ }
+
+ .descargarhelpwanted{
+    border-bottom: 7px solid #a945c7;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.helpwantedimagen{
+    width: 150px;
+    height: 150px;  
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textohelpwanted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textohelpwanted:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;
+ }
+
+.textohelpwanteddos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50;  
+}
+
+.descargarucn{
+    border-bottom: 7px solid #a945c7;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.ucnimagen{
+    width: 150px;
+    height: 150px;  
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textoucn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textoucn:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;
+ }
+
+ .textoucndos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50; 
+ }
+
+ .descargarfnafworld{
+    border-bottom: 7px solid #a945c7;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.fnafworldimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textofnafworld{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 37, 126);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textofnafworld:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.0.1s;
+ }
+
+ .textofnafworlddos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50; 
+ }
