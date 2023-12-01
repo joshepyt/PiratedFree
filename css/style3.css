@@ -295,6 +295,12 @@ body{
     height: 50; 
  }
 
+.versionfnafucn{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
 .descargarfnafdos{
     border-bottom: 7px solid #a945c7;
     margin-top: -100px;
@@ -341,6 +347,11 @@ body{
     height: 50;   
  }
 
+.versionfnaf2{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
  .descargarhollow{
     border-bottom: 7px solid #a945c7;
     margin-top: -100px;
@@ -385,6 +396,12 @@ body{
     margin-top: 40px;
     width: 170;
     height: 50;    
+}
+
+.versionhollow{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
 }
 
 .descargargeometrydash{
@@ -433,6 +450,12 @@ body{
     height: 30; 
  }
 
+.versiongd{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
  .descargarsisterlocation{
     border-bottom: 7px solid #a945c7;
     margin-top: -100px;
@@ -476,6 +499,12 @@ body{
     margin-top: 30px;
     width: 200;
     height: 60; 
+}
+
+.versionfnafsl{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
 }
 
 .descargarpizzeriasimulator{
@@ -524,6 +553,11 @@ body{
     height: 40; 
  }
 
+.versionfnafpz{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
  .descargarfnafuno{
     border-bottom: 7px solid #a945c7;
     margin-top: -100px;
@@ -570,6 +604,12 @@ body{
     height: 50; 
  }
 
+.versionfnaf1{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
  .descargarfnafworld{
     border-bottom: 7px solid #a945c7;
     margin-top: -100px;
@@ -615,3 +655,9 @@ body{
     width: 170;
     height: 50; 
  }
+
+.versionfnafworld{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
