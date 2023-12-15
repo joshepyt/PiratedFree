@@ -160,13 +160,21 @@ body{
     font-size: 18px;
 }
 
+.bastones{
+    display: flex;
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    right: 10px;
+}
+
 .apoyototal{
     display: grid;
 }
 
 .logo2{
     width: 300px;
-    height: 100px;
+    height: 150px;
 }
 
 .logodeapoyo{

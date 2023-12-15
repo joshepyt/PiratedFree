@@ -40,7 +40,7 @@ body{
     position: fixed;
     top: 0;left: 0;
     background-color: #141016;
-    border-bottom: 7px solid  #9c0101;  
+    border-bottom: 7px solid  #00b100;  
 }
 
 
@@ -160,6 +160,14 @@ body{
     font-size: 18px;
 }
 
+.bastones{
+    display: flex;
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    right: 10px;
+
+}
 
 .menudispositivos{
 	display: flex;
@@ -177,7 +185,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(173, 0, 0);
+    background-color: rgb(13, 78, 0);
     padding: 5px 80px;
     color: #fff;
     letter-spacing: 1px;
@@ -191,8 +199,8 @@ body{
 }
 
 .textomovil:hover{
-    background: #b60110;
-    box-shadow: 0 0 10px #6b0000, 0 0 40px #e20000, 0 0 80px #c00000;
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
     transition-delay: 0.0.1s;
  }
 
@@ -205,7 +213,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(173, 0, 0);
+    background-color: rgb(13, 78, 0);
     padding: 5px 80px;
     color: #fff;
     letter-spacing: 1px;
@@ -218,8 +226,8 @@ body{
 }
 
 .textopc:hover{
-    background: #b60110;
-    box-shadow: 0 0 10px #6b0000, 0 0 40px #e20000, 0 0 80px #c00000;
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
     transition-delay: 0.0.1s;
  }
 
@@ -250,7 +258,7 @@ body{
 }
 
 .descargarucn{
-    border-bottom: 7px solid #a945c7;
+    border-bottom: 7px solid #45c745;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -266,7 +274,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(83, 37, 126);
+    background-color: rgb(13, 78, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -280,8 +288,8 @@ body{
 }
 
 .textoucn:hover{
-    background: #a945c7;
-    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
     transition-delay: 0.0.1s;
  }
 
@@ -302,7 +310,7 @@ body{
 }
 
 .descargarfnafdos{
-    border-bottom: 7px solid #a945c7;
+    border-bottom: 7px solid #45c745;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -318,7 +326,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(83, 37, 126);
+    background-color: rgb(13, 78, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -332,8 +340,8 @@ body{
 }
 
 .textofnafdos:hover{
-    background: #a945c7;
-    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
     transition-delay: 0.0.1s;
  }
 
@@ -353,7 +361,7 @@ body{
     font-size: 15px;
 }
  .descargarhollow{
-    border-bottom: 7px solid #a945c7;
+    border-bottom: 7px solid #45c745;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -369,7 +377,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(83, 37, 126);
+    background-color: rgb(13, 78, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -383,8 +391,8 @@ body{
 }
 
 .textohollow:hover{
-    background: #a945c7;
-    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
     transition-delay: 0.0.1s;
  }
 
@@ -405,7 +413,7 @@ body{
 }
 
 .descargargeometrydash{
-    border-bottom: 7px solid #a945c7;
+    border-bottom: 7px solid #45c745;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -421,7 +429,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(83, 37, 126);
+    background-color: rgb(13, 78, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -435,8 +443,8 @@ body{
 }
 
 .textogeometrydash:hover{
-    background: #a945c7;
-    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
     transition-delay: 0.0.1s;
  }
 
@@ -457,7 +465,7 @@ body{
 }
 
  .descargarsisterlocation{
-    border-bottom: 7px solid #a945c7;
+    border-bottom: 7px solid #45c745;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -473,7 +481,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(83, 37, 126);
+    background-color: rgb(13, 78, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -486,8 +494,8 @@ body{
 }
 
 .textosisterlocation:hover{
-    background: #a945c7;
-    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
     transition-delay: 0.0.1s;
 }
 
@@ -497,7 +505,7 @@ body{
     left: center;
     top: -5px;
     margin-top: 30px;
-    width: 200;
+    width: 150;
     height: 60; 
 }
 
@@ -508,7 +516,7 @@ body{
 }
 
 .descargarpizzeriasimulator{
-    border-bottom: 7px solid #a945c7;
+    border-bottom: 7px solid #45c745;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -524,7 +532,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(83, 37, 126);
+    background-color: rgb(13, 78, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -538,8 +546,8 @@ body{
 }
 
 .textopizzeriasimulator:hover{
-    background: #a945c7;
-    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
     transition-delay: 0.0.1s;
  }
 
@@ -559,7 +567,7 @@ body{
     font-size: 15px;
 }
  .descargarfnafuno{
-    border-bottom: 7px solid #a945c7;
+    border-bottom: 7px solid #45c745;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -575,7 +583,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(83, 37, 126);
+    background-color: rgb(13, 78, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -589,8 +597,8 @@ body{
 }
 
 .textofnafuno:hover{
-    background: #a945c7;
-    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
     transition-delay: 0.0.1s;
  }
 
@@ -611,7 +619,7 @@ body{
 }
 
  .descargarfnafworld{
-    border-bottom: 7px solid #a945c7;
+    border-bottom: 7px solid #45c745;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -627,7 +635,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(83, 37, 126);
+    background-color: rgb(13, 78, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -641,8 +649,8 @@ body{
 }
 
 .textofnafworld:hover{
-    background: #a945c7;
-    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
     transition-delay: 0.0.1s;
  }
 
@@ -657,6 +665,162 @@ body{
  }
 
 .versionfnafworld{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.descargarfnaftres{
+    border-bottom: 7px solid #45c745;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.fnaftresimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textofnaftres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 78, 0);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textofnaftres:hover{
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    transition-delay: 0.0.1s;
+ }
+
+ .textofnaftresdos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50;  
+ }
+
+.versionfnaf3{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.descargarfnafcuatro{
+    border-bottom: 7px solid #45c745;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.fnafcuatroimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textofnafcuatro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 78, 0);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textofnafcuatro:hover{
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    transition-delay: 0.0.1s;
+ }
+
+ .textofnafcuatrodos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50;  
+ }
+
+.versionfnaf4{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.descargarfnafhe{
+    border-bottom: 7px solid #45c745;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.fnafheimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textofnafhe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 78, 0);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textofnafhe:hover{
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    transition-delay: 0.0.1s;
+ }
+
+ .textofnafhedos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50;  
+ }
+
+.versionfnafhe{
     color: #fff;
     letter-spacing: 1px;
     font-size: 15px;
