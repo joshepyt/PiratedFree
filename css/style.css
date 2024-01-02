@@ -1024,13 +1024,65 @@ body{
     display: block;
     position: relative;
     left: center;
-    top: -5px;
+    top: -10px;
     margin-top: 60px;
     width: 170;
     height: 30; 
  }
 
 .versiongd{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.descargargtasa{
+    border-bottom: 7px solid #45c745;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.gtasaimagen{
+    width: 150px;
+    height: 150px;  
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textogtasa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 78, 0);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textogtasa:hover{
+    background: #08fc1d;
+    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    transition-delay: 0.0.1s;
+ }
+
+ .textogtasados{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 25px;
+    width: 170;
+    height: 65; 
+ }
+
+.versiongtasa{
     color: #fff;
     letter-spacing: 1px;
     font-size: 15px;
