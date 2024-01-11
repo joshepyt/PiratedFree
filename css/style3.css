@@ -40,7 +40,7 @@ body{
     position: fixed;
     top: 0;left: 0;
     background-color: #141016;
-    border-bottom: 7px solid  #00b100;  
+    border-bottom: 7px solid  #b80000;  
 }
 
 
@@ -160,15 +160,6 @@ body{
     font-size: 18px;
 }
 
-.bastones{
-    display: flex;
-    position: fixed;
-    width: 70px;
-    height: 70px;
-    right: 10px;
-
-}
-
 .menudispositivos{
 	display: flex;
 	justify-content: center;
@@ -185,7 +176,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 80px;
     color: #fff;
     letter-spacing: 1px;
@@ -199,8 +190,8 @@ body{
 }
 
 .textomovil:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #e00000, 0 0 40px #e00000, 0 0 80px #e00000;
     transition-delay: 0.0.1s;
  }
 
@@ -213,7 +204,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 80px;
     color: #fff;
     letter-spacing: 1px;
@@ -226,8 +217,8 @@ body{
 }
 
 .textopc:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #e00000, 0 0 40px #e00000, 0 0 80px #e00000;
     transition-delay: 0.0.1s;
  }
 
@@ -258,7 +249,7 @@ body{
 }
 
 .descargarucn{
-    border-bottom: 7px solid #45c745;
+    border-bottom: 7px solid #b80000;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -274,7 +265,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -288,8 +279,8 @@ body{
 }
 
 .textoucn:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
  }
 
@@ -310,7 +301,7 @@ body{
 }
 
 .descargarfnafdos{
-    border-bottom: 7px solid #45c745;
+    border-bottom: 7px solid #b80000;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -326,7 +317,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -340,8 +331,8 @@ body{
 }
 
 .textofnafdos:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
  }
 
@@ -361,7 +352,7 @@ body{
     font-size: 15px;
 }
  .descargarhollow{
-    border-bottom: 7px solid #45c745;
+    border-bottom: 7px solid #b80000;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -377,7 +368,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -391,8 +382,8 @@ body{
 }
 
 .textohollow:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
  }
 
@@ -413,7 +404,7 @@ body{
 }
 
 .descargargeometrydash{
-    border-bottom: 7px solid #45c745;
+    border-bottom: 7px solid #b80000;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -429,7 +420,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -443,8 +434,8 @@ body{
 }
 
 .textogeometrydash:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
  }
 
@@ -465,7 +456,7 @@ body{
 }
 
  .descargarsisterlocation{
-    border-bottom: 7px solid #45c745;
+    border-bottom: 7px solid #b80000;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -481,7 +472,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -494,8 +485,8 @@ body{
 }
 
 .textosisterlocation:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
 }
 
@@ -516,7 +507,7 @@ body{
 }
 
 .descargarpizzeriasimulator{
-    border-bottom: 7px solid #45c745;
+    border-bottom: 7px solid #b80000;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -532,7 +523,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -546,8 +537,8 @@ body{
 }
 
 .textopizzeriasimulator:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
  }
 
@@ -567,7 +558,7 @@ body{
     font-size: 15px;
 }
  .descargarfnafuno{
-    border-bottom: 7px solid #45c745;
+    border-bottom: 7px solid #b80000;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -583,7 +574,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -597,8 +588,8 @@ body{
 }
 
 .textofnafuno:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
  }
 
@@ -619,7 +610,7 @@ body{
 }
 
  .descargarfnafworld{
-    border-bottom: 7px solid #45c745;
+    border-bottom: 7px solid #b80000;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -635,7 +626,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -649,8 +640,8 @@ body{
 }
 
 .textofnafworld:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
  }
 
@@ -671,7 +662,7 @@ body{
 }
 
 .descargarfnaftres{
-    border-bottom: 7px solid #45c745;
+    border-bottom: 7px solid #b80000;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -687,7 +678,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -701,8 +692,8 @@ body{
 }
 
 .textofnaftres:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
  }
 
@@ -723,7 +714,7 @@ body{
 }
 
 .descargarfnafcuatro{
-    border-bottom: 7px solid #45c745;
+    border-bottom: 7px solid #b80000;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -739,7 +730,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -753,8 +744,8 @@ body{
 }
 
 .textofnafcuatro:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
  }
 
@@ -775,7 +766,7 @@ body{
 }
 
 .descargarfnafhe{
-    border-bottom: 7px solid #45c745;
+    border-bottom: 7px solid #b80000;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -791,7 +782,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -805,8 +796,8 @@ body{
 }
 
 .textofnafhe:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
  }
 
@@ -827,7 +818,7 @@ body{
 }
 
 .descargaroutlast{
-    border-bottom: 7px solid #45c745;
+    border-bottom: 7px solid #b80000;
     margin-top: -100px;
     margin-bottom: 200px;
 }
@@ -843,7 +834,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(13, 78, 0);
+    background-color: rgb(145, 0, 0);
     padding: 5px 10px;
     color: #fff;
     letter-spacing: 1px;
@@ -857,8 +848,8 @@ body{
 }
 
 .textooutlast:hover{
-    background: #08fc1d;
-    box-shadow: 0 0 10px #00b100, 0 0 40px #00b100, 0 0 80px #00b100;
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
  }
 
