@@ -972,3 +972,159 @@ body{
     letter-spacing: 1px;
     font-size: 15px;
 }
+
+.descargarl4d2{
+    border-bottom: 7px solid #b80000;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.l4d2imagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textol4d2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 0, 0);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textol4d2:hover{
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+    transition-delay: 0.0.1s;
+ }
+
+ .textol4d2dos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50; 
+ }
+
+.versionl4d2{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.descargaramongus{
+    border-bottom: 7px solid #b80000;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.amongusimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textoamongus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 0, 0);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textoamongus:hover{
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+    transition-delay: 0.0.1s;
+ }
+
+ .textoamongusdos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50; 
+ }
+
+.versionamongus{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.descargarhaloce{
+    border-bottom: 7px solid #b80000;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.haloceimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textohaloce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 0, 0);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textohaloce:hover{
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+    transition-delay: 0.0.1s;
+ }
+
+ .textohalocedos{
+    display: block;
+    position: relative;
+    left: center;
+    top: 25px;
+    margin-top: -20px;
+    width: 170;
+    height: 110; 
+ }
+
+.versionhaloce{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
