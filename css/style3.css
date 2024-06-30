@@ -1128,3 +1128,55 @@ body{
     letter-spacing: 1px;
     font-size: 15px;
 }
+
+.descargarblasphemous{
+    border-bottom: 7px solid #b80000;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.blasphemousimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textoblasphemous{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 0, 0);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textoblasphemous:hover{
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+    transition-delay: 0.0.1s;
+ }
+
+ .textoblasphemousdos{
+    display: block;
+    position: relative;
+    left: center;
+    top: 5px;
+    margin-top: 20px;
+    width: 170;
+    height: 70; 
+ }
+
+.versionblasphemous{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
