@@ -1180,3 +1180,107 @@ body{
     letter-spacing: 1px;
     font-size: 15px;
 }
+
+.descargarOmori{
+    border-bottom: 7px solid #b80000;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.Omoriimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textoOmori{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 0, 0);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textoOmori:hover{
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+    transition-delay: 0.0.1s;
+ }
+
+ .textoOmoridos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -5px;
+    margin-top: 40px;
+    width: 170;
+    height: 50; 
+ }
+
+.versionOmori{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.descargarminecraft{
+    border-bottom: 7px solid #b80000;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.minecraftimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textominecraft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 0, 0);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textominecraft:hover{
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+    transition-delay: 0.0.1s;
+ }
+
+ .textominecraftdos{
+    display: block;
+    position: relative;
+    left: center;
+    top: -15px;
+    margin-top: 60px;
+    width: 170;
+    height: 30; 
+ }
+
+.versionminecraft{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
