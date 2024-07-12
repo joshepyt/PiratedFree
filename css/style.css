@@ -244,8 +244,8 @@ body{
 	display: flex;
     justify-content: center;
 	flex-wrap: wrap;
-    gap: 25px;
-	margin-top: 100px;
+    gap: 30px;
+	margin-top: 150px;
 }
 
 
@@ -283,16 +283,6 @@ body{
     background: #b80000;
     box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
- }
-
- .textominecraftdos{
-    display: block;
-    position: relative;
-    left: center;
-    top: 20px;
-    margin-top: -10px;
-    width: 170;
-    height: 100;
  }
 
 .versionminecraft{
@@ -334,16 +324,6 @@ body{
     background: #b80000;
     box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
-}
-
-.textolimbodos{
-    display: block;
-    position: relative;
-    left: center;
-    top: 20px;
-    margin-top: -10px;
-    width: 170;
-    height: 100;    
 }
 
 .versionlimbo{
@@ -388,16 +368,6 @@ body{
     transition-delay: 0.0.1s;
  }
 
-.textohollowdos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 40px;
-    width: 170;
-    height: 50;
-}
-
 .versionhollow{
     color: #fff;
     letter-spacing: 1px;
@@ -438,16 +408,6 @@ body{
     background: #b80000;
     box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
- }
-
- .textofnafunodos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 40px;
-    width: 170;
-    height: 50; 
  }
 
 .versionfnaf1{
@@ -492,16 +452,6 @@ body{
     transition-delay: 0.0.1s;
  }
 
- .textofnafdosdos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 40px;
-    width: 170;
-    height: 50; 
- }
-
 .versionfnaf2{
     color: #fff;
     letter-spacing: 1px;
@@ -542,16 +492,6 @@ body{
     background: #b80000;
     box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
- }
-
- .textofnaftresdos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 40px;
-    width: 170;
-    height: 50;  
  }
 
 .versionfnaf3{
@@ -596,69 +536,7 @@ body{
     transition-delay: 0.0.1s;
  }
 
- .textofnafcuatrodos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 40px;
-    width: 170;
-    height: 50;  
- }
-
 .versionfnaf4{
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 15px;
-}
-
- .descargargris{
-    border-bottom: 7px solid #b80000;
-    margin-top: -100px;
-    margin-bottom: 200px;
-}
-
-.grisimagen{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 20%;
-}
-
-.textogris{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(145, 0, 0);
-    padding: 5px 10px;
-    color: #fff;
-    letter-spacing: 1px;
-    text-decoration: none;
-    margin: 10px;
-    max-width: 170px;
-    transition: 0.1s;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.textogris:hover{
-    background: #b80000;
-    box-shadow: 0 0 10px #ff0000, 0 0 40px #00b100, 0 0 80px #ff0000;
-    transition-delay: 0.0.1s;
- }
-
- .textogrisdos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 40px;
-    width: 170;
-    height: 50; 
- } 
-
-.versiongris{
     color: #fff;
     letter-spacing: 1px;
     font-size: 15px;
@@ -698,16 +576,6 @@ body{
     background: #b80000;
     box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
- }
-
-.textofnafsisterlocationdos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 40px;
-    width: 170;
-    height: 50;  
  }
 
 .versionfnafsl{
@@ -752,16 +620,6 @@ body{
     transition-delay: 0.0.1s;
  }
 
- .textopizzeriasimulatordos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 50px;
-    width: 170;
-    height: 40; 
- }
-
 .versionfnafpz{
     color: #fff;
     letter-spacing: 1px;
@@ -804,16 +662,6 @@ body{
     transition-delay: 0.0.1s;
  }
 
-.textohelpwanteddos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 40px;
-    width: 170;
-    height: 50;  
-}
-
 .versionfnafhw{
     color: #fff;
     letter-spacing: 1px;
@@ -854,16 +702,6 @@ body{
     background: #b80000;
     box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
- }
-
- .textoucndos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 40px;
-    width: 170;
-    height: 50; 
  }
 
 .versionfnafucn{
@@ -908,16 +746,6 @@ body{
     transition-delay: 0.0.1s;
  }
 
- .textofnafworlddos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 40px;
-    width: 170;
-    height: 50; 
- }
-
 .versionfnafworld{
     color: #fff;
     letter-spacing: 1px;
@@ -958,16 +786,6 @@ body{
     background: #b80000;
     box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
- }
-
- .textovlndos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 20px;
-    width: 170;
-    height: 70; 
  }
 
 .versionvln{
@@ -1012,16 +830,6 @@ body{
     transition-delay: 0.0.1s;
  }
 
- .textogeometrydashdos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -10px;
-    margin-top: 60px;
-    width: 170;
-    height: 30; 
- }
-
 .versiongd{
     color: #fff;
     letter-spacing: 1px;
@@ -1063,17 +871,6 @@ body{
     box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
  }
-
- .textogtasados{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 25px;
-    width: 170;
-    height: 65; 
- }
-
 .versiongtasa{
     color: #fff;
     letter-spacing: 1px;
@@ -1114,16 +911,6 @@ body{
     background: #b80000;
     box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
     transition-delay: 0.0.1s;
- }
-
- .textogtavcdos{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 25px;
-    width: 170;
-    height: 65; 
  }
 
 .versiongtavc{
@@ -1168,17 +955,133 @@ body{
     transition-delay: 0.0.1s;
  }
 
- .textoterrariados{
-    display: block;
-    position: relative;
-    left: center;
-    top: -5px;
-    margin-top: 25px;
-    width: 170;
-    height: 65; 
+.versionterraria{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.descargarstardewvalley{
+    border-bottom: 7px solid #b80000;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.stardewvalleyimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textostardewvalley{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 0, 0);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textostardewvalley:hover{
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+    transition-delay: 0.0.1s;
  }
 
-.versionterraria{
+.versionstardewvalley{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.descargarlittlenightmares{
+    border-bottom: 7px solid #b80000;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.littlenightmaresimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textolittlenightmares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 0, 0);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textolittlenightmares:hover{
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+    transition-delay: 0.0.1s;
+ }
+
+.versionlittlenightmares{
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.descargardeadcells{
+    border-bottom: 7px solid #b80000;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.deadcellsimagen{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.textodeadcells{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 0, 0);
+    padding: 5px 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 10px;
+    max-width: 170px;
+    transition: 0.1s;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.textodeadcells:hover{
+    background: #b80000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+    transition-delay: 0.0.1s;
+ }
+
+.versiondeadcells{
     color: #fff;
     letter-spacing: 1px;
     font-size: 15px;
